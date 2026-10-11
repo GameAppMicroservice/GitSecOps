@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: fullstack
-        image: replace
+        image: manojkrishnappa/snakegame:ccbc2dac52ee982a99899d0ea6c2474762cb4db2
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
